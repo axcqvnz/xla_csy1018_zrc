@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+h1 {
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0.2%;
+    background: rgb(80, 34, 115);
+    padding: 1.5%;
+}
+
+header img {
+    margin-right: 20px;
+}
