@@ -25,6 +25,19 @@ header {
 header img {
     margin-right: 20px;
 }
+section{
+font-family: 'EB Garamond', serif;
+padding:1.5%;margin:0.2%;background:rgb(52, 63, 113);
+}
+section article{
+  margin: 0 20px;text-align: justify;
+}
+section p{
+  color: white;font-size: 20px;
+  letter-spacing: 0.5px;
+  word-spacing: 1.5px;
+}
+
 
 footer {
     display: flex;
