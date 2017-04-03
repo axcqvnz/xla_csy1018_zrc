@@ -39,6 +39,76 @@ header img {
     justify-content: space-between;
 }
 
+.menubar ul h2 {
+    margin: 0;
+    padding: 0.5%;
+    text-decoration: none;
+    -webkit-transition: -webkit-transform 0.1s;
+    /* Safari */
+    transition: transform 1s;
+}
+
+.menubar ul h2 li a {
+    color:rgb(80, 34, 115);
+    text-decoration: none;
+}
+
+.menubar ul h2:hover {
+    background: lightgreen;
+    border-radius: 20px;
+    width: 8%;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    -webkit-transform: rotate(-720deg);
+    /* Safari */
+    transform: rotate(-720deg);
+}
+section {
+    font-family: 'EB Garamond', serif;
+    padding: 1.5%;
+    margin: 0.2%;
+    display: flex;
+    flex-direction: row;
+    background: rgb(52, 63, 113);
+}
+
+.sidebar {
+    margin-right: 4%;
+}
+
+.sidebar h3 {
+    text-align: center;
+    background: white;
+    color: black;
+}
+
+.main {
+    width: 75%;
+}
+
+.main h3 {
+    text-align: center;
+    background: white;
+    color: black;
+}
+
+.main p {
+    margin: 2%;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0.2%;
+    background: rgb(80, 34, 115);
+    padding: 0.5%;
+}
+
 footer {
     display: flex;
     flex-direction: row;
