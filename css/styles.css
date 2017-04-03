@@ -14,12 +14,12 @@ li {
 }
 
 header {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  margin: 0.2%;
-  background: rgb(80, 34, 115);
-  padding: 1.5%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0.2%;
+    background: rgb(80, 34, 115);
+    padding: 1.5%;
 }
 header img {
     margin-right: 20px;
@@ -48,7 +48,7 @@ header img {
     transition: transform 1s;
 }
 
-.menubar ul h2 li a {
+.menubar ul h2 li a{
     color:rgb(80, 34, 115);
     text-decoration: none;
 }
@@ -56,7 +56,7 @@ header img {
 .menubar ul h2:hover {
     background: lightgreen;
     border-radius: 20px;
-    width: 8%;
+    width: 78px;
     text-align: center;
     color: blue;
     text-decoration: underline;
@@ -82,7 +82,12 @@ section {
     background: white;
     color: black;
 }
-
+#picture img{
+  opacity: 0.9;
+}
+#picture img:hover{
+  opacity:1;
+}
 .main {
     width: 75%;
 }
@@ -98,15 +103,6 @@ section {
     color: white;
     font-size: 20px;
     text-align: justify;
-}
-
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 0.2%;
-    background: rgb(80, 34, 115);
-    padding: 0.5%;
 }
 
 footer {
@@ -141,4 +137,43 @@ footer .block {
 .block img {
     width: 50px;
     height: 50px;
+}
+
+@media (max-width: 600px) {
+    .menubar ul{
+      flex-direction: column;
+      }
+      .menubar ul h2 li{
+        margin: 15px 0;
+        }
+
+    .menubar ul h2:hover {
+        background: lightgreen;
+        border-radius: 5px;
+        width: 78px;
+        text-align: left;
+        color: blue;
+        text-decoration: underline;
+        -webkit-transform: rotate(0deg);
+        /* Safari */
+        transform: rotate(0deg);
+      }
+    section {
+        flex-direction: column;
+    }
+    section .sidebar {
+        width: 100%;
+    }
+    section .main {
+        width: 100%;
+        height: auto;
+    }
+    section .sidebar #picture img {
+        width: 100%;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .block{
+      margin-left: 5px;
 }
