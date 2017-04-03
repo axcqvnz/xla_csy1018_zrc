@@ -19,7 +19,26 @@ header{
 header img{
   margin-right: 20px;
 }
-
+section{
+font-family: 'EB Garamond', serif;
+padding:1.5%;margin:0.2%;background:rgb(52, 63, 113);
+}
+section p{
+  color: white;font-size: 16px;
+  letter-spacing: 0.5px;
+  word-spacing: 1.5px;
+}
+form .detail{
+display: flex;flex-direction: column;
+}
+form .detail input{
+  width: 20%;height: 25px;
+  margin-bottom: 5px;
+}
+textarea{
+  height: 200px;
+  width: 500px;
+}
 footer {
     display: flex;
     flex-direction: row;
