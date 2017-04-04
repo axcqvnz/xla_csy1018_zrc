@@ -121,7 +121,9 @@ footer {
 .block p{
   color: white;
 }
-
+.block a{
+  text-decoration: none;
+}
 .block a p{
     color: white;
     margin-top: 0;
@@ -141,7 +143,7 @@ footer {
         margin: 15px 0;
         }
 
-    .menubar ul h2:hover {
+    .menubar ul li:hover {
         background: lightgreen;
         border-radius: 5px;
         width: 78px;
