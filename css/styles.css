@@ -45,7 +45,7 @@ header img {
     text-decoration: none;
     -webkit-transition: -webkit-transform 0.1s;
     /* Safari */
-    transition: transform 1s;
+    transition: transform 0.5s;
 }
 
 .menubar ul li a{
