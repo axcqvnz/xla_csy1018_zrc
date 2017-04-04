@@ -39,7 +39,7 @@ header img {
     justify-content: space-between;
 }
 
-.menubar ul h2 {
+.menubar ul li {
     margin: 0;
     padding: 0.5%;
     text-decoration: none;
@@ -48,12 +48,13 @@ header img {
     transition: transform 1s;
 }
 
-.menubar ul h2 li a{
+.menubar ul li a{
+    font-size: 25px;
     color:rgb(80, 34, 115);
     text-decoration: none;
 }
 
-.menubar ul h2:hover {
+.menubar ul li:hover {
     background: lightgreen;
     border-radius: 20px;
     width: 78px;
@@ -114,9 +115,6 @@ footer {
     padding: 0.5%;
 }
 
-footer .block {
-    flex-grow: <1>;
-}
 .block h3{
   color: white;
 }
@@ -124,22 +122,18 @@ footer .block {
   color: white;
 }
 
-.block p a {
-    color: blue;
-    display: flex;
-    flex-direction: column;
-}
-
-.block p a {
-    color: blue;
+.block a p{
+    color: white;
+    margin-top: 0;
 }
 
 .block img {
+    margin-top: 15px;
     width: 50px;
     height: 50px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .menubar ul{
       flex-direction: column;
       }
@@ -154,8 +148,7 @@ footer .block {
         text-align: left;
         color: blue;
         text-decoration: underline;
-        -webkit-transform: rotate(0deg);
-        /* Safari */
+        -webkit-transform: rotate(0deg);/* Safari */
         transform: rotate(0deg);
       }
     section {
@@ -176,4 +169,5 @@ footer .block {
     }
     .block{
       margin-left: 5px;
+    }
 }
