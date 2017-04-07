@@ -1,58 +1,88 @@
-body{
-font-family: 'Teko', sans-serif;
-margin: 0;padding:0;
-background:white;
+/*Student Name: Naresh Baraili; Student Number: 17421481*/
+
+body {/*css property for whole body of webpage*/
+    font-family: 'Teko', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
 }
-h1{
-  color: white;
+
+h1 {/*css style for all h1*/
+    color: white;
 }
-li{
-  list-style: none;
+
+li {/*css style for all list item*/
+    list-style: none;
 }
-header{
-  display: flex;flex-direction: row;
-  text-align: center;
-  margin:0.2%;
-  background:rgb(80, 34, 115);
-  padding:1.5%;
+
+header {/*style for header*/
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0.2%;
+    background: rgb(80, 34, 115);
+    padding: 1.5%;
 }
-header img{
-  margin-right: 20px;
+
+header img {/*margin given to images present inside header*/
+    margin-right: 20px;
 }
-.back{
- background: rgb(137, 134, 135);margin: 0.2%;
+
+.back {/*style for back class*/
+    background: rgb(137, 134, 135);
+    margin: 0.2%;
 }
-.back h2{
-  margin:0.2%;padding:0.98%;width: 132px;color:rgb(80, 34, 115);
+
+.back h2 {/*style for h2 of class back*/
+    margin: 0.2%;
+    padding: 0.98%;
+    width: 132px;
+    color: rgb(80, 34, 115);
 }
-.back a{
-text-decoration: none;
+
+.back a {/*style for link of class back*/
+    text-decoration: none;
 }
-.back a h2:hover{
-  background: lightgreen;
-  width:150px;text-align: center;border-radius: 20px;text-decoration: underline;
+
+.back a h2:hover {/*style on hovering to back*/
+    background: lightgreen;
+    width: 150px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: underline;
 }
-section{
-font-family: 'EB Garamond', serif;
-padding:1.5%;margin:0.2%;background:rgb(52, 63, 113);
+
+section {/*style for section*/
+    font-family: 'EB Garamond', serif;
+    padding: 1.5%;
+    margin: 0.2%;
+    background: rgb(52, 63, 113);
 }
-section p{
-  color: white;font-size: 16px;
-  letter-spacing: 0.5px;
-  word-spacing: 1.5px;
+
+section p {/*style for paragraph of section*/
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
 }
-form .detail{
-display: flex;flex-direction: column;
+
+form .detail {/*css style for form*/
+    display: flex;
+    flex-direction: column;
 }
-form .detail input{
-  width: 20%;height: 25px;
-  margin-bottom: 5px;
+
+form .detail input {/*css style for form*/
+    width: 20%;
+    height: 25px;
+    margin-bottom: 5px;
 }
-textarea{
-  height: 200px;
-  width: 500px;
+
+textarea {/*css style for textarea*/
+    height: 200px;
+    width: 500px;
 }
-footer {
+
+footer {/*style for footer*/
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -60,28 +90,33 @@ footer {
     background: rgb(80, 34, 115);
     padding: 0.5%;
 }
-.block h3{
-  color: white;
+
+.block h3 {/*style for h3 of class block inside footer*/
+    color: white;
 }
-.block p{
-  color: white;
+
+.block p {/*style for paragraph of class block inside footer*/
+    color: white;
 }
-.block a{
-  text-decoration: none;
+
+.block a {/* underline of link of footer removed */
+    text-decoration: none;
 }
-.block a p{
+
+.block a p {/*style for paragraph of link in footer*/
     color: white;
     margin-top: 0;
 }
 
-.block img {
+.block img {/*resized facebook logo*/
     margin-top: 15px;
     width: 50px;
     height: 50px;
 }
-@media (max-width: 800px) {
+
+@media (max-width: 800px) {/*style redefined for mobile screen*/
     section {
-       flex-direction: column;
+        flex-direction: column;
     }
     section .sidebar {
         width: 100%;
@@ -93,16 +128,16 @@ footer {
     section .sidebar #picture img {
         width: 100%;
     }
-    form .detail input{
-      width: 100%;
+    form .detail input {
+        width: 100%;
     }
-    textarea{
-      width: 99%;
+    textarea {
+        width: 99%;
     }
     footer {
         flex-direction: column;
     }
-    .block{
-      margin-left: 5px;
+    .block {
+        margin-left: 5px;
     }
 }

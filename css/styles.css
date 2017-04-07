@@ -1,19 +1,21 @@
-body {
+/*Student Name: Naresh Baraili; Student Number: 17421481*/
+
+body {/*css property for whole body of webpage*/
     font-family: 'Teko', sans-serif;
     margin: 0;
     padding: 0;
     background: white;
 }
 
-h1 {
+h1 {/*css style for all h1*/
     color: white;
 }
 
-li {
+li {/*css style for all list item*/
     list-style: none;
 }
 
-header {
+header {/*style for header*/
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -21,7 +23,8 @@ header {
     background: rgb(80, 34, 115);
     padding: 1.5%;
 }
-header img {
+
+header img {/*margin given to images present inside header*/
     margin-right: 20px;
 }
 
@@ -65,7 +68,8 @@ header img {
     /* Safari */
     transform: rotate(-720deg);
 }
-section {
+
+section {/*style for section*/
     font-family: 'EB Garamond', serif;
     padding: 1.5%;
     margin: 0.2%;
@@ -106,7 +110,7 @@ section {
     text-align: justify;
 }
 
-footer {
+footer {/*style for footer*/
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -115,27 +119,30 @@ footer {
     padding: 0.5%;
 }
 
-.block h3{
+.block h3{/*style for h3 of class block inside footer*/
   color: white;
 }
-.block p{
+
+.block p{/*style for paragraph of class block inside footer*/
   color: white;
 }
-.block a{
+
+.block a{/* underline of link of footer removed */
   text-decoration: none;
 }
-.block a p{
+
+.block a p{/*style for paragraph of link in footer*/
     color: white;
     margin-top: 0;
 }
 
-.block img {
+.block img {/*resized facebook logo*/
     margin-top: 15px;
     width: 50px;
     height: 50px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 800px) {/*style redefined for mobile screen*/
     .menubar ul{
       flex-direction: column;
       }
