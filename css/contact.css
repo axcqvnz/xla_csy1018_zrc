@@ -61,7 +61,7 @@ section {/*style for section*/
 
 section p {/*style for paragraph of section*/
     color: white;
-    font-size: 16px;
+    font-size: 1em;
     letter-spacing: 0.5px;
     word-spacing: 1.5px;
 }

@@ -53,7 +53,7 @@ header img {/*margin given to images present inside header*/
 }
 
 section {/*style for section*/
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond', serif;/*for the google webfont*/
     padding: 1.5%;
     margin: 0.2%;
     background: rgb(52, 63, 113);
@@ -66,7 +66,7 @@ section article {/*style for article inside of section*/
 
 section p {/*style for paragraph of section*/
     color: white;
-    font-size: 20px;
+    font-size: 1.3em;
     letter-spacing: 0.5px;
     word-spacing: 1.5px;
 }

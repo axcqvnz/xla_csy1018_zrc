@@ -62,20 +62,20 @@ section {/*style for section*/
 }
 
 section h3 {/*style for h3 along the section*/
-    font-size: 20px;
+    font-size: 1.4em;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 section p {/*style for paragraph of section*/
-    font-size: 20px;
+    font-size: 1.3em;
     text-align: justify;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 section h1 {/*h1 of section styled*/
-    font-size: 25px;
+    font-size: 1.6em;
     color: black;
     text-align: center;
 }

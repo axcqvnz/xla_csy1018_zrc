@@ -1,7 +1,7 @@
 /*Student Name: Naresh Baraili; Student Number: 17421481*/
 
 body {/*css property for whole body of webpage*/
-    font-family: 'Teko', sans-serif;
+    font-family: 'Teko', sans-serif;/*for google webfont*/
     margin: 0;
     padding: 0;
     background: white;
@@ -28,12 +28,12 @@ header img {/*margin given to images present inside header*/
     margin-right: 20px;
 }
 
-.menubar {
+.menubar {/*style for menubar div*/
     background: rgb(137, 134, 135);
     margin: 0.2%;
 }
 
-.menubar ul {
+.menubar ul {/*styles for unordered list*/
     margin: 0.2%;
     padding: 0.5%;
     padding-left: 0;
@@ -42,7 +42,7 @@ header img {/*margin given to images present inside header*/
     justify-content: space-between;
 }
 
-.menubar ul li {
+.menubar ul li {/*styles for list items of menubar*/
     margin: 0;
     padding: 0.5%;
     text-decoration: none;
@@ -51,13 +51,13 @@ header img {/*margin given to images present inside header*/
     transition: transform 0.5s;
 }
 
-.menubar ul li a{
-    font-size: 25px;
+.menubar ul li a{/*styles for link item of menubar*/
+    font-size: 1.5em;
     color:rgb(80, 34, 115);
     text-decoration: none;
 }
 
-.menubar ul li:hover {
+.menubar ul li:hover {/*styles redefined when hovering on list items*/
     background: lightgreen;
     border-radius: 20px;
     width: 78px;
@@ -78,35 +78,35 @@ section {/*style for section*/
     background: rgb(52, 63, 113);
 }
 
-.sidebar {
+.sidebar {/*margin given to sidebar division*/
     margin-right: 4%;
 }
 
-.sidebar h3 {
+.sidebar h3 {/* h3 of sidebar div under section styled and repositioned*/
     text-align: center;
     background: white;
     color: black;
 }
-#picture img{
+#picture img{/*little opacity to image given*/
   opacity: 0.9;
 }
-#picture img:hover{
+#picture img:hover{/*opacity removed on hover*/
   opacity:1;
 }
-.main {
+.main {/*width of main division given*/
     width: 75%;
 }
 
-.main h3 {
+.main h3 {/*style and position of h3 of main division under section given*/
     text-align: center;
     background: white;
     color: black;
 }
 
-.main p {
+.main p {/*given instruction how a paragraph under main section should look like*/
     margin: 2%;
     color: white;
-    font-size: 20px;
+    font-size: 1.3em;
     text-align: justify;
 }
 
@@ -146,9 +146,9 @@ footer {/*style for footer*/
     .menubar ul{
       flex-direction: column;
       }
-      .menubar ul h2 li{
-        margin: 15px 0;
-        }
+    .menubar ul li {
+      width: 72px;
+    }
 
     .menubar ul li:hover {
         background: lightgreen;
