@@ -29,23 +29,23 @@ header img {/*margin given to images present inside header*/
     margin-right: 20px;
 }
 
-.back {/*style for back class*/
+.backz {/*style for back class*/
     background: rgb(137, 134, 135);
     margin: 0.2%;
 }
 
-.back h2 {/*style for h2 of class back*/
+.backz h2 {/*style for h2 of class back*/
     margin: 0.2%;
     padding: 0.98%;
     width: 132px;
     color: rgb(80, 34, 115);
 }
 
-.back a {/*style for link of class back*/
+.backz a {/*style for link of class back*/
     text-decoration: none;
 }
 
-.back a h2:hover {/*style on hovering to back*/
+.backz a h2:hover {/*style on hovering to back*/
     background: lightgreen;
     width: 150px;
     text-align: center;
@@ -92,24 +92,24 @@ footer {/*style for footer*/
     padding: 0.5%;
 }
 
-.block h3 {/*style for h3 of class block inside footer*/
+.blockz h3 {/*style for h3 of class block inside footer*/
     color: white;
 }
 
-.block p {/*style for paragraph of class block inside footer*/
+.blockz p {/*style for paragraph of class block inside footer*/
     color: white;
 }
 
-.block a {/* underline of link of footer removed */
+.blockz a {/* underline of link of footer removed */
     text-decoration: none;
 }
 
-.block a p {/*style for paragraph of link in footer*/
+.blockz a p {/*style for paragraph of link in footer*/
     color: white;
     margin-top: 0;
 }
 
-.block img {/*resized facebook logo*/
+.blockz img {/*resized facebook logo*/
     margin-top: 15px;
     width: 50px;
     height: 50px;
@@ -117,7 +117,7 @@ footer {/*style for footer*/
 
 @media (max-width: 800px) {/*style redefined for mobile screen*/
     section {
-        flex-direction: column;
+        flex-direction: column;<!-- to show the contents in columns -->
     }
     section .sidebar {
         width: 100%;
@@ -138,7 +138,7 @@ footer {/*style for footer*/
     footer {
         flex-direction: column;
     }
-    .block {
+    .blockz {
         margin-left: 5px;
     }
 }

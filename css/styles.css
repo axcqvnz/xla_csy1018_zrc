@@ -29,12 +29,12 @@ header img {/*margin given to images present inside header*/
     margin-right: 20px;
 }
 
-.menubar {/*style for menubar div*/
+.menubarz {/*style for menubar div*/
     background: rgb(137, 134, 135);
     margin: 0.2%;
 }
 
-.menubar ul {/*styles for unordered list*/
+.menubarz ul {/*styles for unordered list*/
     margin: 0.2%;
     padding: 0.5%;
     padding-left: 0;
@@ -43,7 +43,7 @@ header img {/*margin given to images present inside header*/
     justify-content: space-between;
 }
 
-.menubar ul li {/*styles for list items of menubar*/
+.menubarz ul li {/*styles for list items of menubar*/
     margin: 0;
     padding: 0.5%;
     text-decoration: none;
@@ -52,13 +52,13 @@ header img {/*margin given to images present inside header*/
     transition: transform 0.5s;
 }
 
-.menubar ul li a{/*styles for link item of menubar*/
+.menubarz ul li a{/*styles for link item of menubar*/
     font-size: 1.5em;
     color:rgb(80, 34, 115);
     text-decoration: none;
 }
 
-.menubar ul li:hover {/*styles redefined when hovering on list items*/
+.menubarz ul li:hover {/*styles redefined when hovering on list items*/
     background: lightgreen;
     border-radius: 20px;
     width: 78px;
@@ -79,11 +79,11 @@ section {/*style for section*/
     background: rgb(52, 63, 113);
 }
 
-.sidebar {/*margin given to sidebar division*/
+.sidebarz {/*margin given to sidebarz division*/
     margin-right: 4%;
 }
 
-.sidebar h3 {/* h3 of sidebar div under section styled and repositioned*/
+.sidebarz h3 {/* h3 of sidebar div under section styled and repositioned*/
     text-align: center;
     background: white;
     color: black;
@@ -94,17 +94,17 @@ section {/*style for section*/
 #picture img:hover{/*opacity removed on hover*/
   opacity:1;
 }
-.main {/*width of main division given*/
+.mainz {/*width of mainz division given*/
     width: 75%;
 }
 
-.main h3 {/*style and position of h3 of main division under section given*/
+.mainz h3 {/*style and position of h3 of main division under section given*/
     text-align: center;
     background: white;
     color: black;
 }
 
-.main p {/*given instruction how a paragraph under main section should look like*/
+.mainz p {/*given instruction how a paragraph under main section should look like*/
     margin: 2%;
     color: white;
     font-size: 1.3em;
@@ -120,38 +120,38 @@ footer {/*style for footer*/
     padding: 0.5%;
 }
 
-.block h3{/*style for h3 of class block inside footer*/
+.blockz h3{/*style for h3 of class blockz inside footer*/
   color: white;
 }
 
-.block p{/*style for paragraph of class block inside footer*/
+.blockz p{/*style for paragraph of class block inside footer*/
   color: white;
 }
 
-.block a{/* underline of link of footer removed */
+.blockz a{/* underline of link of footer removed */
   text-decoration: none;
 }
 
-.block a p{/*style for paragraph of link in footer*/
+.blockz a p{/*style for paragraph of link in footer*/
     color: white;
     margin-top: 0;
 }
 
-.block img {/*resized facebook logo*/
+.blockz img {/*resized facebook logo*/
     margin-top: 15px;
     width: 50px;
     height: 50px;
 }
 
 @media (max-width: 800px) {/*style redefined for mobile screen*/
-    .menubar ul{
+    .menubarz ul{
       flex-direction: column;
       }
-    .menubar ul li {
+    .menubarz ul li {
       width: 72px;
     }
 
-    .menubar ul li:hover {
+    .menubarz ul li:hover {
         background: lightgreen;
         border-radius: 5px;
         width: 78px;
@@ -164,20 +164,20 @@ footer {/*style for footer*/
     section {
         flex-direction: column;
     }
-    section .sidebar {
+    section .sidebarz {
         width: 100%;
     }
-    section .main {
+    section .mainz {
         width: 100%;
         height: auto;
     }
-    section .sidebar #picture img {
+    section .sidebarz #picture img {
         width: 100%;
     }
     footer {
         flex-direction: column;
     }
-    .block{
+    .blockz{
       margin-left: 5px;
     }
 }
