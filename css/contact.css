@@ -117,7 +117,7 @@ footer {/*style for footer*/
 
 @media (max-width: 800px) {/*style redefined for mobile screen*/
     section {
-        flex-direction: column;<!-- to show the contents in columns -->
+        flex-direction: column;/*for showing the contents in columns*/
     }
     section .sidebar {
         width: 100%;
