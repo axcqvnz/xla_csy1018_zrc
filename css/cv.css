@@ -81,9 +81,20 @@ section h1 {/*h1 of section styled*/
 }
 
 article {/*style for article*/
-    margin: 0 20%;
+    margin: 0 5%;
     color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+article .leftside{
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+article .rightside{
+  margin-top: 2%;}
 
 footer {/*style for footer*/
     display: flex;
@@ -122,6 +133,7 @@ footer {/*style for footer*/
         flex-direction: column;
     }
     article {
+        flex-direction: column;
         margin: 0 0.1px;
         color: black;
     }
